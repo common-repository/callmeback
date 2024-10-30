@@ -1,0 +1,43 @@
+#cmb_wrapper {
+  font-family: Verdana;
+  color: #666;
+  font-size: 11px;
+}
+
+#cmb_header { 
+  width: 150px; 
+  background: lightgrey;
+  border-radius: 10px 10px 0 0;
+  padding: 5px 0 0 10px;
+  text-align: center;
+  box-shadow: 5px 5px 5px #DDD;
+}
+
+
+#cmb_form {
+    padding: 8px;
+    width: 540px;
+    height: 60px;
+    background: lightgrey;
+    border-radius: 0 10px 10px 10px;
+    box-shadow: 5px 5px 5px #DDD;
+}
+
+#cmb_form .fieldblock { 
+  float: left;
+  width: 130px;
+}
+
+#cmb_form input[type=submit] {
+  background: lightgrey;
+  padding: 5px;
+  width: 110px;
+  color: black;
+  margin-top: 10px;
+}
+
+#cmb_form label { padding: 3px;}
+
+#cmb_form input[type=text] {
+  border-radius: 6px;
+}

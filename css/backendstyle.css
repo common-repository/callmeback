@@ -1,0 +1,18 @@
+#cmb_backend label {
+   width: 150px;
+    display: block;
+}
+
+#cmb_backend input[type=text], #cmb_backend textarea {
+    width: 350px;
+}
+
+#cmb_backend fieldset {
+    margin: 20px 0;
+}
+
+#cmb_backend legend {
+    font-weight: bold;
+    border: 1px solid black;
+    margin: 10px 0;
+}

@@ -1,0 +1,43 @@
+Installation:
+
+1. Unpack callbackevent.zip
+2. Move the folder into /wp-content/plugins
+3. Activate the Plugin "CallbackEvent" in the Backend
+4. In the Sidebar of the backend appears "CMB Settings"
+5. There, you have to insert 3 Values: CliendID, ClientSecret, CalendarID and, if you like, change the default Thank-you Text :)
+
+
+Create ClientID & ClientSecret
+-------------------------------
+1. https://console.developers.google.com
+2. "Create Project"
+3. Go to the Menu APIS & auth => Credentials
+4. On the right side unter "OAauth", press the Button "Create new Client ID"
+5. Chose "Web Application"
+6. Fill in the address of your page under "AUTHORIZED REDIRECT URI".
+7. After a few seconds, the data appears, including ClientID and ClientSecret
+
+CalendarID
+----------
+1. https://www.google.com/calendar
+2. Create a calendar, e.g. "Callbacks" and go to it's calendar-settings.
+3. In the settings-page, paragraph "Calendar Address", there is the calendar id.
+4. The calendar id has the form "rih2k42k4jh24kj24h24kh2@group.calendar.google.com"
+
+Insert the 3 Values you got in the steps above into the Form and press Save.
+
+Afterwards, a link "Authenticate" appears. Click that link, to authenticate at google-services.
+
+That's it!
+
+To show the callback-form in your page, use the "[cmb]" shortcode.
+
+Now, if there is a request, it automatically appears as an event in your created "Callbacks" Calender at Google Calendar
+and you can setup up your smartphone or similar to remind you.
+
+
+
+
+
+
+

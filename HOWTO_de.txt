@@ -1,0 +1,43 @@
+Installation:
+
+1. callbackevent.zip entpacken
+2. den Ordner unter /wp-content/plugins ablegen
+3. Im Backend das Plugin "CallbackEvent" aktivieren
+4. In der Sidebar des Admins erscheint "Callback Settings"
+5. Dort müssen 3 Werte eingetragen werden. CliendID, ClientSecret, CalendarID
+
+
+ClientID & ClientSecret anlegen
+-------------------------------
+1. https://console.developers.google.com
+2. Ein neues Projekt anlegen "Create Project"
+3. Ist das Projekt angelegt, links im Menu APIS&auth => Credentials
+4. Nun auf der rechten Seite unter "OAauth" den Button "Create new Client ID" betätigen
+5. Webapplication aufwählen
+6. Unten bei "AUTHORIZED REDIRECT URI" die Adresse Ihrer Seite eintragen.
+7. Nach einigen Sekunden erscheinen die Daten, inkl. ClientID und ClientSecret
+
+CalendarID
+----------
+1. https://www.google.com/calendar
+2. Legen Sie z.b. einen Kalender "Rückrufe" an, und gehen Sie in diesem auf Kalender-Einstellungen
+3. In der Einstellungsseite finden Sie im Abschnitt "Kalenderadresse" die Kalender-ID
+4. Die KalendarID hat die Form "rih2k42k4jh24kj24h24kh2@group.calendar.google.com"
+
+Tragen Sie die 3 ermittelten Werte ein und speichern Sie.
+Danach erscheint ein Link "Authenticate". Bitte betätigen Sie diesen. 
+
+Das War's
+
+
+Um das Rückrufformular einzublenden, nutzen Sie den Shortcode "[callbackevent]"
+
+Erfolgt eine Anfrage, landet diese nun automatisch in Ihrem "Rückrufe" Kalender zum 
+gewünschten Zeitpunkt und Sie können sich z.B. von Ihrem SmartPhone erinnern lassen. 
+
+
+
+
+
+
+
